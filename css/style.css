@@ -352,12 +352,25 @@ footer {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 220;
+    top: 100vh;
     height: 8vh;
     width: 100%;
     background-color: #100f0f;
   }
   .footer-a {
+    width: 25px;
+  }
+  .footer_prj {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 200vh;
+    height: 8vh;
+    width: 100%;
+    background-color: #100f0f;
+  }
+  .footer_prj-a {
     width: 25px;
   }
   .projects-1 {
@@ -384,7 +397,7 @@ footer {
     display: none;
   }
   .contact-foto__resp {
+    display: block;
     width: 50vw;
-    position: relative;
   }
 }/*# sourceMappingURL=style.css.map */

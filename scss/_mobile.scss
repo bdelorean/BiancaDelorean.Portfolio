@@ -94,7 +94,20 @@
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 220;
+    top: 100vh;
+    height: 8vh;
+    width: 100%;
+    background-color: $color-black;
+    &-a {
+      width: 25px;
+    }
+  }
+  .footer_prj {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 200vh;
     height: 8vh;
     width: 100%;
     background-color: $color-black;
@@ -118,19 +131,18 @@
   .projects-1__text {
     width: 75vw;
   }
-  .contact{
+  .contact {
     margin-top: 9%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    &-foto{
-      &__img{
+    &-foto {
+      &__img {
         display: none;
       }
-      &__resp{
+      &__resp {
+        display: block;
         width: 50vw;
-        position: relative;
-        
       }
     }
   }
