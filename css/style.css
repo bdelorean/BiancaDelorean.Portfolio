@@ -257,6 +257,9 @@ footer {
   height: 70vh;
   margin-top: 20%;
 }
+.contact-foto__resp {
+  display: none;
+}
 
 @media screen and (max-width: 576px) {
   .nav-toggle__btn {
