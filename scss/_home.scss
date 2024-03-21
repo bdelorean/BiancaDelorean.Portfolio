@@ -1,0 +1,79 @@
+@import "var";
+.home {
+  background-color: $color-white;
+
+  &-design {
+    /*die zwarte gedeelde van de home pagina*/
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    background-color: $color-black;
+    height: 100%;
+    width: 45%;
+    right: 0;
+    top: 0;
+
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 20% 100%, 0 70%);
+  }
+  &-foto {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    margin-top: 15%;
+    border-radius: 5px;
+  }
+  &-titel {
+    &__1 {
+      margin-left: 60%;
+      mix-blend-mode: difference;
+      color: aliceblue;
+      font-size: $font-size-h;
+    }
+    &__2 {
+      margin-left: 55%;
+      mix-blend-mode: difference;
+      color: aliceblue;
+      font-size: $font-size-h;
+    }
+  }
+  &-desc {
+    &__text {
+      margin-left: 15%;
+      font-size: $font-size-p;
+      font-style: italic;
+      max-width: 35%;
+      font-family: Quicksand;
+      &__span {
+        color: $accent-color;
+      }
+    }
+  }
+  &-skills {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+    
+    &__titel {
+      color: $accent-color;
+      //border-bottom: 1px solid $accent-color;
+      //display: inline-block;
+      //padding-left: 20px;
+      //padding-right: 20px;
+      font-style: italic;
+    }
+    &__ul{
+      
+      &__li{
+        list-style-type:circle;
+        padding: 5%;
+        font-style: italic;
+        font-size: $font-size-li;
+      }
+    }
+  }
+}

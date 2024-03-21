@@ -1,0 +1,27 @@
+@import 'var';
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    &-info{
+        margin-left: 20%;
+        &__title{
+            font-size: $font-size-h;
+            font-weight: lighter;
+            font-style: italic;
+        }
+        &__li{
+            padding: 2%;
+            list-style-type: disc;
+            font-style: italic;
+            font-weight: bold;
+            font-size: $font-size-p2;
+        }
+    }
+    &-foto__img{
+        height: 70vh;
+        margin-top: 20%;
+    }
+}
