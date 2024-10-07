@@ -1,6 +1,7 @@
 @import "var";
 @media screen and (max-width: $mobile-version) {
   .nav-toggle__btn {
+    margin-top: 10px;
     display: block;
     border: none;
     background-color: transparent;
@@ -94,7 +95,7 @@
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 100vh;
+    top: 92vh;
     height: 8vh;
     width: 100%;
     background-color: $color-black;
@@ -132,7 +133,7 @@
     width: 75vw;
   }
   .contact {
-    margin-top: 9%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,6 +142,7 @@
         display: none;
       }
       &__resp {
+        
         display: block;
         width: 50vw;
       }

@@ -1,0 +1,64 @@
+/* Stijlen voor de body */
+/* Ik hoef geen grid voor mijn portfolio te gebruiken  */
+body {
+    display: flex; /* Flexbox voor layout */
+    margin: 0; /* Geen marge voor de body */
+}
+
+/* Stijlen voor de header (sidebar) */
+header {
+    width: 10%; /* Breedte van de sidebar */
+    height: 100vh; /* Hoogte van de sidebar */
+    background-color: #333; /* Achtergrondkleur */
+    display: flex; /* Gebruik flexbox */
+    flex-direction: column; /* Elementen in kolom */
+    justify-content: space-between; /* Ruimte tussen elementen */
+    padding: 20px; /* Binnenmarge */
+}
+
+/* Stijlen voor de navigatie */
+nav a {
+    color: #fff; /* Tekstkleur */
+    text-decoration: none; /* Geen onderstreping */
+    padding: 10px; /* Binnenmarge voor links */
+}
+
+/* Stijlen voor de iconen */
+.icons {
+    display: flex; /* Flexbox voor iconen */
+    flex-direction: row; /* Iconen in row */
+    list-style: none;
+   
+}
+
+.icons img {
+    width: 30px; /* Breedte van de iconen */
+    height: 30px; /* Hoogte van de iconen */
+    
+}
+
+/* Stijlen voor de hoofdinhoud */
+main {
+    flex: 1; /* Hoofdinhoud vult de resterende ruimte */
+    padding: 20px; /* Binnenmarge */
+}
+
+.intro {
+    text-align: center; /* Centraal uitlijnen van de tekst */
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Stijlen voor de vaardigheden sectie */
+.skills ul {
+    list-style-type: none; /* Geen opsommingstekens */
+    padding: 0; /* Geen padding */
+}
+
+.skills li {
+    margin: 5px 0; /* Ruimte tussen de vaardigheden */
+}
