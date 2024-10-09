@@ -3,6 +3,7 @@
 body {
     display: flex; /* Flexbox voor layout */
     margin: 0; /* Geen marge voor de body */
+    position: relative;
 }
 
 /* Stijlen voor de header (sidebar) */
@@ -66,6 +67,9 @@ footer {
     background-color: #333;
     padding: 20px;
     color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer ul {
