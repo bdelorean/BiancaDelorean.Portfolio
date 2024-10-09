@@ -62,3 +62,48 @@ main {
 .skills li {
     margin: 5px 0; /* Ruimte tussen de vaardigheden */
 }
+/* Mobiele schermen (maximaal 767px breed) */
+@media (max-width: 767px) {
+    body {
+        flex-direction: column; /* Sidebar boven de inhoud */
+    }
+
+    header {
+        width: 100%; /* Sidebar vult volledige breedte */
+        height: auto; /* Automatische hoogte */
+        flex-direction: row; /* Navigatie naast iconen */
+        justify-content: space-between;
+    }
+
+    nav {
+        flex-direction: row; /* Links horizontaal op mobiel */
+        gap: 10px; /* Ruimte tussen links */
+    }
+
+    .about {
+        flex-direction: column; /* Over mij sectie in kolom */
+        align-items: center; /* Centreer elementen */
+    }
+}
+/* Tablet schermen (768px tot 1023px breed) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        flex-direction: row; /* Sidebar naast hoofdinhoud */
+    }
+
+    header {
+        width: 20%; /* Sidebar neemt 20% van de breedte in */
+        height: 100vh; /* Sidebar vult volledige hoogte */
+        flex-direction: column; /* Links onder elkaar */
+        justify-content: space-between;
+    }
+
+    nav {
+        flex-direction: column; /* Navigatie verticaal */
+    }
+
+    .about {
+        flex-direction: row; /* Over mij sectie in een rij */
+        justify-content: space-around; /* Ruimte tussen items */
+    }
+}
